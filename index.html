@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Home Page</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <img src="img/logo.svg" alt="Logo" />
+          </div>
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="index.html" class="menu__link active">Home</a>
+              </li>
+              <li class="menu__item">
+                <a href="article.html" class="menu__link">Article</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="home">
+        <div class="home__sections">
+          <div class="home__main-slider main-slider swiper">
+            <div class="main-slider__wrapper swiper-wrapper">
+              <div class="main-slider__slide swiper-slide">
+                <img
+                  class="main-slider__bg"
+                  src="img/image8.jpg"
+                  alt="Image"
+                />
+                <div class="main-slider__container">
+                  <a href="#" class="main-slider__category category">NATURE</a>
+                  <div class="main-slider__title title">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing.
+                  </div>
+                  <div class="main-slider__body">
+                    <div class="main-slider__date">Lorem, ipsum dolor.</div>
+                    <div class="main-slider__text text">
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Nobis id maxime quas cupiditate.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main-slider__slide swiper-slide">
+                <img
+                  class="main-slider__bg"
+                  src="img/image4.jpg"
+                  alt="Image"
+                />
+                <div class="main-slider__container">
+                  <a href="#" class="main-slider__category category">NATURE</a>
+                  <div class="main-slider__title title">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing.
+                  </div>
+                  <div class="main-slider__body">
+                    <div class="main-slider__date">Lorem, ipsum dolor.</div>
+                    <div class="main-slider__text text">
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Nobis id maxime quas cupiditate.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main-slider__slide swiper-slide">
+                <img
+                  class="main-slider__bg"
+                  src="img/image21.jpg"
+                  alt="Image"
+                />
+                <div class="main-slider__container">
+                  <a href="#" class="main-slider__category category">NATURE</a>
+                  <div class="main-slider__title title">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing.
+                  </div>
+                  <div class="main-slider__body">
+                    <div class="main-slider__date">Lorem, ipsum dolor.</div>
+                    <div class="main-slider__text text">
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Nobis id maxime quas cupiditate.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-slider__bullets bullets">
+              <div class="bullets__container">
+                <div class="bullets__items"></div>
+              </div>
+            </div>
+          </div>
+          <section class="home__popular popular">
+            <div class="popular__container">
+              <div data-item class="popular__header">
+                <h2 class="popular__title title title_dark">Photo Gallery</h2>
+                <nav class="popular__nav nav-popular">
+                  <button type="button" class="nav-popular__item active">
+                    Memories
+                  </button>
+                  <button type="button" class="nav-popular__item">
+                    Travel
+                  </button>
+                  <button type="button" class="nav-popular__item">Relax</button>
+                  <button type="button" class="nav-popular__item">
+                    Nature
+                  </button>
+                </nav>
+              </div>
+              <div class="popular__content">
+                <div class="popular__tab active">
+                  <div class="popular__items">
+                    <article data-item class="popular__item item-popular">
+                      <a href="#" class="item-popular__category category"
+                        >MEMORIES</a
+                      >
+                      <a href="#" class="item-popular__image">
+                        <img src="img/image12.jpg" alt="Image" />
+                      </a>
+                      <div class="item-popular__date">Lorem, ipsum dolor.</div>
+                      <h4 class="item-popular__title">
+                        <a href="#" class="item-popular__link-title">
+                          Lorem ipsum dolor sit amet consectetur.
+                        </a>
+                      </h4>
+                      <div class="item-popular__text text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Totam ratione quae illum rerum, eos consectetur
+                          eveniet alias, molestias porro tempore ipsum dolorem
+                          vero modi non quaerat aliquid, iusto voluptates
+                          repellat!
+                        </p>
+                      </div>
+                    </article>
+                    <article data-item class="popular__item item-popular">
+                      <a href="#" class="item-popular__category category"
+                        >MEMORIES</a
+                      >
+                      <a href="#" class="item-popular__image">
+                        <img src="img/image10.jpg" alt="Image" />
+                      </a>
+                      <div class="item-popular__date">Lorem, ipsum dolor.</div>
+                      <h4 class="item-popular__title">
+                        <a href="#" class="item-popular__link-title">
+                          Lorem ipsum dolor sit amet consectetur.
+                        </a>
+                      </h4>
+                      <div class="item-popular__text text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Totam ratione quae illum rerum, eos consectetur
+                          eveniet alias, molestias porro tempore ipsum dolorem
+                          vero modi non quaerat aliquid, iusto voluptates
+                          repellat!
+                        </p>
+                      </div>
+                    </article>
+                    <article data-item class="popular__item item-popular">
+                      <a href="#" class="item-popular__category category"
+                        >MEMORIES</a
+                      >
+                      <a href="#" class="item-popular__image">
+                        <img src="img/image14.jpg" alt="Image" />
+                      </a>
+                      <div class="item-popular__date">Lorem, ipsum dolor.</div>
+                      <h4 class="item-popular__title">
+                        <a href="#" class="item-popular__link-title">
+                          Lorem ipsum dolor sit amet consectetur.
+                        </a>
+                      </h4>
+                      <div class="item-popular__text text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Totam ratione quae illum rerum, eos consectetur
+                          eveniet alias, molestias porro tempore ipsum dolorem
+                          vero modi non quaerat aliquid, iusto voluptates
+                          repellat!
+                        </p>
+                      </div>
+                    </article>
+                    <article data-item class="popular__item item-popular">
+                      <a href="#" class="item-popular__category category"
+                        >MEMORIES</a
+                      >
+                      <a href="#" class="item-popular__image">
+                        <img src="img/image7.jpg" alt="Image" />
+                      </a>
+                      <div class="item-popular__date">Lorem, ipsum dolor.</div>
+                      <h4 class="item-popular__title">
+                        <a href="#" class="item-popular__link-title">
+                          Lorem ipsum dolor sit amet consectetur.
+                        </a>
+                      </h4>
+                      <div class="item-popular__text text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Totam ratione quae illum rerum, eos consectetur
+                          eveniet alias, molestias porro tempore ipsum dolorem
+                          vero modi non quaerat aliquid, iusto voluptates
+                          repellat!
+                        </p>
+                      </div>
+                    </article>
+                    <article data-item class="popular__item item-popular">
+                      <a href="#" class="item-popular__category category"
+                        >MEMORIES</a
+                      >
+                      <a href="#" class="item-popular__image">
+                        <img src="img/image13.jpg" alt="Image" />
+                      </a>
+                      <div class="item-popular__date">Lorem, ipsum dolor.</div>
+                      <h4 class="item-popular__title">
+                        <a href="#" class="item-popular__link-title">
+                          Lorem ipsum dolor sit amet consectetur.
+                        </a>
+                      </h4>
+                      <div class="item-popular__text text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Totam ratione quae illum rerum, eos consectetur
+                          eveniet alias, molestias porro tempore ipsum dolorem
+                          vero modi non quaerat aliquid, iusto voluptates
+                          repellat!
+                        </p>
+                      </div>
+                    </article>
+                    <article data-item class="popular__item item-popular">
+                      <a href="#" class="item-popular__category category"
+                        >MEMORIES</a
+                      >
+                      <a href="#" class="item-popular__image">
+                        <img src="img/image15.jpg" alt="Image" />
+                      </a>
+                      <div class="item-popular__date">Lorem, ipsum dolor.</div>
+                      <h4 class="item-popular__title">
+                        <a href="" class="item-popular__link-title">
+                          Lorem ipsum dolor sit amet consectetur.
+                        </a>
+                      </h4>
+                      <div class="item-popular__text text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Totam ratione quae illum rerum, eos consectetur
+                          eveniet alias, molestias porro tempore ipsum dolorem
+                          vero modi non quaerat aliquid, iusto voluptates
+                          repellat!
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                <div class="popular__tab">
+                  <div class="popular__items">
+                    <article data-item class="popular__item item-popular">
+                      <a href="#" class="item-popular__category category"
+                        >TRAVEL</a
+                      >
+                      <a href="#" class="item-popular__image">
+                        <img src="img/image5.jpg" alt="Image" />
+                      </a>
+                      <div class="item-popular__date">Lorem, ipsum dolor.</div>
+                      <h4 class="item-popular__title">
+                        <a href="#" class="item-popular__link-title">
+                          Lorem ipsum dolor sit amet consectetur.
+                        </a>
+                      </h4>
+                      <div class="item-popular__text text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Totam ratione quae illum rerum, eos consectetur
+                          eveniet alias, molestias porro tempore ipsum dolorem
+                          vero modi non quaerat aliquid, iusto voluptates
+                          repellat!
+                        </p>
+                      </div>
+                    </article>
+                    <article data-item class="popular__item item-popular">
+                      <a href="#" class="item-popular__category category"
+                        >TRAVEL</a
+                      >
+                      <a href="#" class="item-popular__image">
+                        <img src="img/image6.jpg" alt="Image" />
+                      </a>
+                      <div class="item-popular__date">Lorem, ipsum dolor.</div>
+                      <h4 class="item-popular__title">
+                        <a href="#" class="item-popular__link-title">
+                          Lorem ipsum dolor sit amet consectetur.
+                        </a>
+                      </h4>
+                      <div class="item-popular__text text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Totam ratione quae illum rerum, eos consectetur
+                          eveniet alias, molestias porro tempore ipsum dolorem
+                          vero modi non quaerat aliquid, iusto voluptates
+                          repellat!
+                        </p>
+                      </div>
+                    </article>
+                    <article data-item class="popular__item item-popular">
+                      <a href="#" class="item-popular__category category"
+                        >TRAVEL</a
+                      >
+                      <a href="#" class="item-popular__image">
+                        <img src="img/image16.jpg" alt="Image" />
+                      </a>
+                      <div class="item-popular__date">Lorem, ipsum dolor.</div>
+                      <h4 class="item-popular__title">
+                        <a href="#" class="item-popular__link-title">
+                          Lorem ipsum dolor sit amet consectetur.
+                        </a>
+                      </h4>
+                      <div class="item-popular__text text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Totam ratione quae illum rerum, eos consectetur
+                          eveniet alias, molestias porro tempore ipsum dolorem
+                          vero modi non quaerat aliquid, iusto voluptates
+                          repellat!
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                <div class="popular__tab">
+                  <div class="popular__items">
+                    <article data-item class="popular__item item-popular">
+                      <a href="#" class="item-popular__category category"
+                        >RELAX</a
+                      >
+                      <a href="#" class="item-popular__image">
+                        <img src="img/image19.jpg" alt="Image" />
+                      </a>
+                      <div class="item-popular__date">Lorem, ipsum dolor.</div>
+                      <h4 class="item-popular__title">
+                        <a href="#" class="item-popular__link-title">
+                          Lorem ipsum dolor sit amet consectetur.
+                        </a>
+                      </h4>
+                      <div class="item-popular__text text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Totam ratione quae illum rerum, eos consectetur
+                          eveniet alias, molestias porro tempore ipsum dolorem
+                          vero modi non quaerat aliquid, iusto voluptates
+                          repellat!
+                        </p>
+                      </div>
+                    </article>
+                    <article data-item class="popular__item item-popular">
+                      <a href="#" class="item-popular__category category"
+                        >RELAX</a
+                      >
+                      <a href="#" class="item-popular__image">
+                        <img src="img/image2.jpg" alt="Image" />
+                      </a>
+                      <div class="item-popular__date">Lorem, ipsum dolor.</div>
+                      <h4 class="item-popular__title">
+                        <a href="#" class="item-popular__link-title">
+                          Lorem ipsum dolor sit amet consectetur.
+                        </a>
+                      </h4>
+                      <div class="item-popular__text text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Totam ratione quae illum rerum, eos consectetur
+                          eveniet alias, molestias porro tempore ipsum dolorem
+                          vero modi non quaerat aliquid, iusto voluptates
+                          repellat!
+                        </p>
+                      </div>
+                    </article>
+                    <article data-item class="popular__item item-popular">
+                      <a href="#" class="item-popular__category category"
+                        >RELAX</a
+                      >
+                      <a href="#" class="item-popular__image">
+                        <img src="img/image9.jpg" alt="Image" />
+                      </a>
+                      <div class="item-popular__date">Lorem, ipsum dolor.</div>
+                      <h4 class="item-popular__title">
+                        <a href="#" class="item-popular__link-title">
+                          Lorem ipsum dolor sit amet consectetur.
+                        </a>
+                      </h4>
+                      <div class="item-popular__text text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Totam ratione quae illum rerum, eos consectetur
+                          eveniet alias, molestias porro tempore ipsum dolorem
+                          vero modi non quaerat aliquid, iusto voluptates
+                          repellat!
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                <div class="popular__tab">
+                  <div class="popular__items">
+                    <article data-item class="popular__item item-popular">
+                      <a href="#" class="item-popular__category category"
+                        >NATURE</a
+                      >
+                      <a href="#" class="item-popular__image">
+                        <img src="img/image1.jpg" alt="Image" />
+                      </a>
+                      <div class="item-popular__date">Lorem, ipsum dolor.</div>
+                      <h4 class="item-popular__title">
+                        <a href="#" class="item-popular__link-title">
+                          Lorem ipsum dolor sit amet consectetur.
+                        </a>
+                      </h4>
+                      <div class="item-popular__text text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Totam ratione quae illum rerum, eos consectetur
+                          eveniet alias, molestias porro tempore ipsum dolorem
+                          vero modi non quaerat aliquid, iusto voluptates
+                          repellat!
+                        </p>
+                      </div>
+                    </article>
+                    <article data-item class="popular__item item-popular">
+                      <a href="#" class="item-popular__category category"
+                        >NATURE</a
+                      >
+                      <a href="#" class="item-popular__image">
+                        <img src="img/image3.jpg" alt="Image" />
+                      </a>
+                      <div class="item-popular__date">Lorem, ipsum dolor.</div>
+                      <h4 class="item-popular__title">
+                        <a href="#" class="item-popular__link-title">
+                          Lorem ipsum dolor sit amet consectetur.
+                        </a>
+                      </h4>
+                      <div class="item-popular__text text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Totam ratione quae illum rerum, eos consectetur
+                          eveniet alias, molestias porro tempore ipsum dolorem
+                          vero modi non quaerat aliquid, iusto voluptates
+                          repellat!
+                        </p>
+                      </div>
+                    </article>
+                    <article data-item class="popular__item item-popular">
+                      <a href="#" class="item-popular__category category"
+                        >NATURE</a
+                      >
+                      <a href="#" class="item-popular__image">
+                        <img src="img/image18.jpg" alt="Image" />
+                      </a>
+                      <div class="item-popular__date">Lorem, ipsum dolor.</div>
+                      <h4 class="item-popular__title">
+                        <a href="#" class="item-popular__link-title">
+                          Lorem ipsum dolor sit amet consectetur.
+                        </a>
+                      </h4>
+                      <div class="item-popular__text text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Totam ratione quae illum rerum, eos consectetur
+                          eveniet alias, molestias porro tempore ipsum dolorem
+                          vero modi non quaerat aliquid, iusto voluptates
+                          repellat!
+                        </p>
+                      </div>
+                    </article>
+                    <article data-item class="popular__item item-popular">
+                      <a href="#" class="item-popular__category category"
+                        >NATURE</a
+                      >
+                      <a href="#" class="item-popular__image">
+                        <img src="img/image11.jpg" alt="Image" />
+                      </a>
+                      <div class="item-popular__date">Lorem, ipsum dolor.</div>
+                      <h4 class="item-popular__title">
+                        <a href="#" class="item-popular__link-title">
+                          Lorem ipsum dolor sit amet consectetur.
+                        </a>
+                      </h4>
+                      <div class="item-popular__text text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Totam ratione quae illum rerum, eos consectetur
+                          eveniet alias, molestias porro tempore ipsum dolorem
+                          vero modi non quaerat aliquid, iusto voluptates
+                          repellat!
+                        </p>
+                      </div>
+                    </article>
+                    <article data-item class="popular__item item-popular">
+                      <a href="#" class="item-popular__category category"
+                        >NATURE</a
+                      >
+                      <a href="#" class="item-popular__image">
+                        <img src="img/image17.jpg" alt="Image" />
+                      </a>
+                      <div class="item-popular__date">Lorem, ipsum dolor.</div>
+                      <h4 class="item-popular__title">
+                        <a href="#" class="item-popular__link-title">
+                          Lorem ipsum dolor sit amet consectetur.
+                        </a>
+                      </h4>
+                      <div class="item-popular__text text">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Totam ratione quae illum rerum, eos consectetur
+                          eveniet alias, molestias porro tempore ipsum dolorem
+                          vero modi non quaerat aliquid, iusto voluptates
+                          repellat!
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="home__big-post big-post">
+            <div class="big-post__container">
+              <a data-item href="#" class="big-post__category category"
+                >Nature</a
+              >
+              <h2 data-item class="big-post__title title">
+                <a href="#" class="big-post__link-title">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing.
+                </a>
+              </h2>
+              <div class="big-post__text text">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Libero sint alias adipisci laboriosam eius quo!
+                </p>
+              </div>
+              <a href="#" class="big-post__author"> Lorem ipsum dolor sit. </a>
+            </div>
+            <div class="big-post__bg">
+              <img src="img/main.jpg" alt="Image" />
+            </div>
+          </section>
+        </div>
+        <section class="home__related related">
+          <div class="related__container">
+            <h2 data-item class="related__title title title_dark">
+              Reviwed Photos
+            </h2>
+            <div class="related__items">
+              <article data-item class="related__item item-related">
+                <a href="#" class="item-related__category category">RELAX</a>
+                <a href="#" class="item-related__content">
+                  <div class="item-related__date">Lorem ipsum dolor sit.</div>
+                  <h4 class="item-related__title">
+                    Lorem ipsum dolor sit amet.
+                  </h4>
+                  <div class="item-related__text-text">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Quibusdam saepe tenetur magni at culpa sequi.
+                    </p>
+                  </div>
+                </a>
+                <div class="item-related__image">
+                  <img src="img/image22.jpg" alt="Image" />
+                </div>
+              </article>
+              <article data-item class="related__item item-related">
+                <a href="#" class="item-related__category category">RELAX</a>
+                <a href="#" class="item-related__content">
+                  <h4 class="item-related__title">
+                    Lorem ipsum dolor sit amet.
+                  </h4>
+                  <div class="item-related__text-text">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Quibusdam saepe tenetur magni at culpa sequi.
+                    </p>
+                  </div>
+                </a>
+                <div class="item-related__image">
+                  <img src="img/image20.jpg" alt="Image" />
+                </div>
+              </article>
+              <article data-item class="related__item item-related">
+                <a href="#" class="item-related__category category">RELAX</a>
+                <a href="#" class="item-related__content">
+                  <h4 class="item-related__title">
+                    Lorem ipsum dolor sit amet.
+                  </h4>
+                  <div class="item-related__text-text">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Quibusdam saepe tenetur magni at culpa sequi.
+                    </p>
+                  </div>
+                </a>
+                <div class="item-related__image">
+                  <img src="img/image24.jpg" alt="Image" />
+                </div>
+              </article>
+              <article data-item class="related__item item-related">
+                <a href="#" class="item-related__category category">RELAX</a>
+                <a href="#" class="item-related__content">
+                  <div class="item-related__date">Lorem ipsum dolor sit.</div>
+                  <h4 class="item-related__title">
+                    Lorem ipsum dolor sit amet.
+                  </h4>
+                  <div class="item-related__text-text">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Quibusdam saepe tenetur magni at culpa sequi.
+                    </p>
+                  </div>
+                </a>
+                <div class="item-related__image">
+                  <img src="img/image23.jpg" alt="Image" />
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__text">2023 | Maria Bunda</div>
+          <button class="footer__up" type="button">Up</button>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
